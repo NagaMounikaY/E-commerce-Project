@@ -1,0 +1,13 @@
+package in.ashokit.exception;
+
+public class AuthServiceException extends RuntimeException {
+	private String errcode;
+	
+	public AuthServiceException() {
+		
+	}
+	public AuthServiceException(String msg) {
+		super(msg);
+		this.errcode=errcode;
+	}
+}

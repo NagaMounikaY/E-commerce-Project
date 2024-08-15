@@ -1,0 +1,16 @@
+package in.ashokit.config;
+
+import org.springframework.context.annotation.Configuration;
+import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
+
+import in.ashokit.service.UserService;
+
+@Configuration
+@EnableWebSecurity
+public class AppSecurityConfig {
+	
+	private UserService userService;
+	
+	public
+
+}

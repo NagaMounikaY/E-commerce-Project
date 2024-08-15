@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: 08-Reports-Service
+    
+  config:
+    import: optional:configserver:http://localhost:2222/

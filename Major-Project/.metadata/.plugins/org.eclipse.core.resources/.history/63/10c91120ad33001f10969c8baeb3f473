@@ -1,0 +1,37 @@
+package in.ashokit.exception;
+
+import lombok.Builder;
+
+@Builder
+public class ExpResponse {
+	
+	private String errmsg;
+	private String errcode;
+	
+	
+	public ExpResponse() {
+		// TODO Auto-generated constructor stub
+	}
+	public ExpResponse(String errmsg, String errcode) {
+		super();
+		this.errmsg = errmsg;
+		this.errcode = errcode;
+	}
+	public String getErrmsg() {
+		return errmsg;
+	}
+	public void setErrmsg(String errmsg) {
+		this.errmsg = errmsg;
+	}
+	public String getErrcode() {
+		return errcode;
+	}
+	public void setErrcode(String errcode) {
+		this.errcode = errcode;
+	}
+	
+	
+	
+	
+
+}
